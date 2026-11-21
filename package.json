@@ -1,0 +1,18 @@
+{
+  "name": "tawa-express-android",
+  "version": "1.0.0",
+  "description": "Tawa Express — Application Android Commerçants, Livreurs & Hub",
+  "private": true,
+  "scripts": {
+    "cap:init": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "apk:debug": "npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

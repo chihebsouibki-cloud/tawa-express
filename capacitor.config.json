@@ -1,0 +1,13 @@
+{
+  "appId": "tn.tawa.express",
+  "appName": "Tawa Express",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}
